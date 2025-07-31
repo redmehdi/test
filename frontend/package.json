@@ -13,6 +13,6 @@
     "react-dom": "^18.2.0",
     "wagmi": "^1.4.7",
     "viem": "^1.14.0",
-    "ipfs-http-client": "^63.0.1"
+    "ipfs-http-client": "^63.0.0"
   }
 }
