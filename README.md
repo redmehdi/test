@@ -1,32 +1,18 @@
-# Pilotes Ordering API
+# News Publisher Contract
 
-This project provides a simple REST API to manage orders of Miquel Montoro's *pilotes*.
+This repository contains a simple Hardhat project implementing a Solidity smart contract named `NewsPublisher`.
 
 ## Requirements
-- Java 21
-- Maven
-- Lombok plugin for your IDE
+- Node.js 18+
+- npm
 
-## Running
+## Setup
+Install dependencies and run the Hardhat tests:
+
 ```bash
-mvn spring-boot:run
+cd blockchain
+npm install
+npm test
 ```
 
-The API will be available at `http://localhost:8080`. H2 console is available at `/h2-console`.
-
-## Authentication
-Only the search endpoint is secured using HTTP Basic authentication.
-Default credentials:
-- user: `user`
-- password: `password`
-
-## API
-- `POST /orders` – create order
-- `PUT /orders/{id}` – update order within 5 minutes of creation
-- `GET /orders/search?name=...` – search orders by client name (requires auth)
-
-## Tests
-Run tests using:
-```bash
-mvn test
-```
+Use `npm run compile` to compile the contract.
