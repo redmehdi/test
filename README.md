@@ -30,3 +30,13 @@ Run tests using:
 ```bash
 mvn test
 ```
+
+## Smart Contracts
+The `blockchain` directory contains a Hardhat project with the `NewsPublisher`
+contract. Compile or test it using:
+
+```bash
+cd blockchain
+npm run compile
+npm test
+```
